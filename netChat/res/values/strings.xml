@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">netChat</string>
+    <string name="enter_address_text">Server address:</string>
+    <string name="enter_name_text">Your name:</string>
+    <string name="your_image_text">Your image:</string>
+    <string name="button_change">Change image</string>
+    <string name="button_ok">Ok</string>
+    <string name="hint">Enter your message here...</string>
+</resources>

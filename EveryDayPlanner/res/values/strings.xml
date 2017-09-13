@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EveryDayPlanner</string>
+    <string name="enter_your_task">Enter your task...</string>
+    <string name="X">X</string>
+    <string name="delete_all">Del. all</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="change">Change</string>
+    <string name="time_default">00:00</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="Выберите режим карты"
+        android:entries="@array/map_layers"
+        android:entryValues="@array/map_layers"
+        android:key="@string/map_layer"
+        android:title="Режим карты" />
+
+</PreferenceScreen>

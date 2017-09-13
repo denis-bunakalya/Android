@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/enter_address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_address_text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/address_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_address_text"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/enter_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_edit_text"
+        android:text="@string/enter_name_text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_name_text"
+        android:singleLine="true"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/your_image_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_edit_text"
+        android:text="@string/your_image_text"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/your_image_text"
+        android:src="@drawable/ic_launcher"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/button_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_alignTop="@id/imageView"
+        android:text="@string/button_change"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:text="@string/button_ok"
+        android:textSize="20sp" />
+
+</RelativeLayout>
